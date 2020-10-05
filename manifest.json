@@ -38,7 +38,8 @@
     "vtex.order-placed": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.responsive-layout": "0.x",
-    "vtex.stack-layout": "0.x"
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
