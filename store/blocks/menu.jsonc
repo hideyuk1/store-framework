@@ -9,6 +9,11 @@
             "orientation": "horizontal"
         }
     },
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]
+    },
     "menu-item#major-appliances": {
         "blocks": [
             "vtex.menu@2.x:submenu#major"
@@ -19,11 +24,6 @@
                 "text": "Major Appliances"
             }
         }
-    },
-    "vtex.menu@2.x:submenu#major": {
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ]
     },
     "vtex.menu@2.x:menu#major": {
         "children": [
