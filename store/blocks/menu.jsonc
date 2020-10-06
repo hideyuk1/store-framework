@@ -1,0 +1,189 @@
+{
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+    "menu-item#major-appliances": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#major"
+        ],
+        "props": {
+            "itemProps": {
+                "tagTitle": "Major Appliances",
+                "text": "Major Appliances"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]
+    },
+    "vtex.menu@2.x:menu#major": {
+        "children": [
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#refrigerators": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "Refrigerators",
+                "text": "Refrigerators"
+            }
+        }
+    },
+    "menu-item#ovens": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "Ovens",
+                "text": "Ovens"
+            }
+        }
+    },
+    "menu-item#washers": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "Washers",
+                "text": "Washers"
+            }
+        }
+    },
+
+
+
+    "menu-item#small-appliances": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#small"
+        ],
+        "props": {
+            "itemProps": {
+                "tagTitle": "Small Appliances",
+                "text": "Small Appliances"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#small": {
+        "children": [
+            "vtex.menu@2.x:menu#small"
+        ]
+    },
+    "vtex.menu@2.x:menu#small": {
+        "children": [
+            "menu-item#mixers",
+            "menu-item#toasters",
+            "menu-item#coffee"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#mixers": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "mixers",
+                "text": "mixers"
+            }
+        }
+    },
+    "menu-item#toasters": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "toasters",
+                "text": "toasters"
+            }
+        }
+    },
+    "menu-item#coffee": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "coffee",
+                "text": "coffee"
+            }
+        }
+    },
+
+
+
+    
+    "menu-item#electronics": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#electronics"
+        ],
+        "props": {
+            "itemProps": {
+                "tagTitle": "electronics",
+                "text": "electronics"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": [
+            "vtex.menu@2.x:menu#electronics"
+        ]
+    },
+    "vtex.menu@2.x:menu#electronics": {
+        "children": [
+            "menu-item#cameras",
+            "menu-item#laptops",
+            "menu-item#tvs"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#cameras": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "cameras",
+                "text": "cameras"
+            }
+        }
+    },
+    "menu-item#laptops": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "laptops",
+                "text": "laptops"
+            }
+        }
+    },
+    "menu-item#tvs": {
+        "props": {
+            "itemProps": {
+                "tagTitle": "tvs",
+                "text": "tvs"
+            }
+        }
+    }
+
+
+
+
+    // "vtex.menu@2.x:submenu#small": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#small",
+    //         "menu-item#mixers",
+    //         "menu-item#toasters",
+    //         "menu-item#coffee"
+    //     ]
+    // },
+    // "vtex.menu@2.x:submenu#electronics": {
+    //     "children": [
+    //         "vtex.menu@2.x:menu#small",
+    //         "menu-item#mixers",
+    //         "menu-item#toasters",
+    //         "menu-item#coffee"
+    //     ]
+    // }
+}
